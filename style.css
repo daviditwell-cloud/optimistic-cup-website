@@ -690,3 +690,39 @@ footer{
 
 
 }
+/* =====================================
+   TOURNAMENT STATISTICS
+===================================== */
+
+.stats{
+    background:#006400;
+    color:white;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:25px;
+    padding:60px 10%;
+    text-align:center;
+}
+
+.stat-box{
+    background:rgba(255,255,255,0.08);
+    padding:30px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.stat-box:hover{
+    transform:translateY(-6px);
+    background:rgba(255,255,255,0.15);
+}
+
+.stat-box h2{
+    color:#FFD700;
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.stat-box p{
+    font-size:20px;
+    font-weight:bold;
+}
