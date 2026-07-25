@@ -773,3 +773,45 @@ footer{
     }
 
 }
+
+
+/* =====================================
+   FEATURED ACADEMIES
+===================================== */
+
+.featured-teams{
+    padding:80px 10%;
+    background:#f8f8f8;
+    text-align:center;
+}
+
+.teams-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+    margin-top:40px;
+}
+
+.team-card{
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.12);
+    transition:.3s;
+}
+
+.team-card:hover{
+    transform:translateY(-8px);
+}
+
+.team-card img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+    margin-bottom:20px;
+}
+
+.team-card h3{
+    color:#006400;
+    font-size:22px;
+}
