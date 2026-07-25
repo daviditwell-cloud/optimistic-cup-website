@@ -815,3 +815,86 @@ footer{
     color:#006400;
     font-size:22px;
 }
+
+
+/* =====================================
+   TEAM REGISTRATION FORM
+===================================== */
+
+.registration-form{
+
+    max-width:900px;
+
+    margin:80px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.registration-form h2{
+
+    text-align:center;
+
+    color:#006400;
+
+    margin-bottom:35px;
+
+}
+
+.registration-form form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.registration-form label{
+
+    font-weight:bold;
+
+    color:#003b16;
+
+}
+
+.registration-form input,
+
+.registration-form select,
+
+.registration-form textarea{
+
+    padding:15px;
+
+    border:1px solid #cccccc;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+}
+
+.registration-form textarea{
+
+    resize:vertical;
+
+}
+
+.registration-form .btn{
+
+    margin-top:20px;
+
+    border:none;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+}
