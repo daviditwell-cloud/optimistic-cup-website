@@ -932,3 +932,45 @@ footer{
     margin-top:-60px;
 
 }
+
+/* =====================================
+   PROGRESS BAR
+===================================== */
+
+.progress{
+
+    width:320px;
+
+    height:12px;
+
+    background:#dddddd;
+
+    border-radius:20px;
+
+    margin:20px auto;
+
+    overflow:hidden;
+
+}
+
+.progress-bar{
+
+    height:100%;
+
+    background:#FFD700;
+
+    border-radius:20px;
+
+}
+
+.progress-text{
+
+    text-align:center;
+
+    color:white;
+
+    font-weight:bold;
+
+    margin-bottom:25px;
+
+}
