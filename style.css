@@ -898,3 +898,37 @@ footer{
     font-size:18px;
 
 }
+
+/* =====================================
+   REGISTRATION FORM IMPROVEMENTS
+===================================== */
+
+.registration-form input,
+.registration-form select,
+.registration-form textarea{
+
+    width:100%;
+
+    background:#fafafa;
+
+    transition:0.3s;
+
+}
+
+.registration-form input:focus,
+.registration-form select:focus,
+.registration-form textarea:focus{
+
+    outline:none;
+
+    border:2px solid #FFD700;
+
+    background:white;
+
+}
+
+.registration-form{
+
+    margin-top:-60px;
+
+}
