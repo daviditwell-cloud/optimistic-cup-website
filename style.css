@@ -1038,3 +1038,38 @@ footer{
     margin:10px 0;
 
 }
+/* =====================================
+   SPONSOR LOGOS
+===================================== */
+
+.sponsor-card{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+
+}
+
+.sponsor-logo{
+
+    max-width:140px;
+
+    max-height:80px;
+
+    width:auto;
+
+    height:auto;
+
+    object-fit:contain;
+
+}
