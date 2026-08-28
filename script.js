@@ -25,3 +25,36 @@ function updateCountdown() {
 updateCountdown();
 
 setInterval(updateCountdown, 1000);
+
+// GEFA Cup Registration - Step 1
+
+const registrationForm = document.getElementById("registrationForm");
+
+if (registrationForm) {
+
+    registrationForm.addEventListener("submit", function (event) {
+
+        event.preventDefault();
+
+        const formData = new FormData(registrationForm);
+
+        const registrationData = {
+            academyName: formData.get("academyName"),
+            coachName: formData.get("coachName"),
+            phone: formData.get("phone"),
+            email: formData.get("email"),
+            ageCategory: formData.get("ageCategory"),
+            players: formData.get("players"),
+            additionalInfo: formData.get("additionalInfo")
+        };
+
+        localStorage.setItem(
+            "gefaRegistration",
+            JSON.stringify(registrationData)
+        );
+
+        window.location.href = "review-registration.html";
+
+    });
+
+}
