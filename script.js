@@ -58,3 +58,44 @@ if (registrationForm) {
     });
 
 }
+
+// GEFA Cup Registration - Step 2 Review
+
+const savedRegistration = localStorage.getItem("gefaRegistration");
+
+if (savedRegistration) {
+
+    const registrationData = JSON.parse(savedRegistration);
+
+    const reviewAcademyName = document.getElementById("reviewAcademyName");
+    const reviewCoachName = document.getElementById("reviewCoachName");
+    const reviewPhone = document.getElementById("reviewPhone");
+    const reviewEmail = document.getElementById("reviewEmail");
+    const reviewAgeCategory = document.getElementById("reviewAgeCategory");
+    const reviewPlayers = document.getElementById("reviewPlayers");
+
+    if (reviewAcademyName) {
+        reviewAcademyName.textContent = registrationData.academyName;
+    }
+
+    if (reviewCoachName) {
+        reviewCoachName.textContent = registrationData.coachName;
+    }
+
+    if (reviewPhone) {
+        reviewPhone.textContent = registrationData.phone;
+    }
+
+    if (reviewEmail) {
+        reviewEmail.textContent = registrationData.email;
+    }
+
+    if (reviewAgeCategory) {
+        reviewAgeCategory.textContent = registrationData.ageCategory;
+    }
+
+    if (reviewPlayers) {
+        reviewPlayers.textContent = registrationData.players;
+    }
+
+}
